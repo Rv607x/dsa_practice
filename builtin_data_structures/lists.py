@@ -59,3 +59,16 @@ houses2 = ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]
 print("Original list is:", houses2)
 houses2.remove("Ravenclaw")
 print("List with ravenclaw elementt removed is:", houses2)
+
+# list slicing
+# List Slicing gives a sublist
+num_list = [1, 2, 3, 4, 5, 6, 7, 8]
+print(num_list[2:5]) # prints 3rd to 5fth element in list
+print(num_list[0::2]) # Prints every 2nd element from the first
+
+# Index search
+# use index() method to search for an element in list
+cities = ["London", "Paris", "Los Angeles", "Beirut"]
+print(cities.index("Los Angeles"))  # It is at the 2nd index
+
+# use "in" to verify 
