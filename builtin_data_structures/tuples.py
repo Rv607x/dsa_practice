@@ -26,3 +26,6 @@ print(awesome_team_nested)
 # Search tuples
 # Use in operator
 print("Batman" in hero1)
+
+# index() used to get index of value
+print(hero1.index("Batman"))
