@@ -16,4 +16,9 @@ print(car[1])
 print(car[2:])
 
 # Merging Tuples
-       
+awesome_team = hero1 + hero2
+print(awesome_team)   
+
+#nested Tuple
+awesome_team_nested = (hero1, hero2)
+print(awesome_team_nested)
