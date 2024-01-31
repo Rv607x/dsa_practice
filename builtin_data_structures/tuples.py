@@ -22,3 +22,7 @@ print(awesome_team)
 #nested Tuple
 awesome_team_nested = (hero1, hero2)
 print(awesome_team_nested)
+
+# Search tuples
+# Use in operator
+print("Batman" in hero1)
