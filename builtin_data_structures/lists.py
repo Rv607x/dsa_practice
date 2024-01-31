@@ -81,3 +81,20 @@ print("Moscow" not in cities)
 num_list2 = [20, 40, 10, 50.4, 30, 100, 5]
 num_list2.sort()
 print(num_list2)
+
+# List Comprehension
+# is a technique to create a new list using for loop
+# list comprehension statement always enclosed in []
+# consists of 3 main parts: [expression, for loop and if condition]
+nums = [10, 20, 30, 40, 50]
+nums_double = []
+for n in nums:
+    nums_double.append(n*2)
+print(nums)
+print(nums_double)
+
+# using list comprehension, this can be shortened into
+nums2 = [10, 20, 30, 40, 50]
+nums_double2 = [n * 2 for n in nums2]
+print(nums2)
+print(nums_double2)
