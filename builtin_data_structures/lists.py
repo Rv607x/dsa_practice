@@ -71,4 +71,13 @@ print(num_list[0::2]) # Prints every 2nd element from the first
 cities = ["London", "Paris", "Los Angeles", "Beirut"]
 print(cities.index("Los Angeles"))  # It is at the 2nd index
 
-# use "in" to verify 
+# use "in" to verify if element exists in a list
+cities = ["London", "Paris", "Los Angeles", "Beirut"]
+print("London" in cities)
+print("Moscow" not in cities)
+
+# List sort
+# User sort() method to sort a list
+num_list2 = [20, 40, 10, 50.4, 30, 100, 5]
+num_list2.sort()
+print(num_list2)
