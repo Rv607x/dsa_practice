@@ -37,3 +37,11 @@ phone_book3["Cersei"] = 56212   # Updating entry
 print(phone_book3)
 
 # Deleting entries
+# use del keyword to remove entries
+del phone_book3["Godzilla"]
+print(phone_book3)
+
+# To use deleted value, pop() or popitem() methods are used
+cersei = phone_book3.pop("Cersei")
+print(phone_book3)
+print(cersei)
