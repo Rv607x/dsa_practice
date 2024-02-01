@@ -28,3 +28,12 @@ print(phone_book3['Cersei'])
 
 # can also use get() method by a_dictionary.get(key)
 print(phone_book3.get("Cersei"))
+
+# adding/ updating entries
+phone_book3["Godzilla"] = 45687   # New Entry 
+print(phone_book3)
+
+phone_book3["Cersei"] = 56212   # Updating entry
+print(phone_book3)
+
+# Deleting entries
