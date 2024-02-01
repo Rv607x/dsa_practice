@@ -23,3 +23,8 @@ phone_book3 = dict([('Batman', 468426),
                    ('Ghostbusters', 44678)])
 print(phone_book3)
 
+# Accessing Dictionary values
+print(phone_book3['Cersei'])
+
+# can also use get() method by a_dictionary.get(key)
+print(phone_book3.get("Cersei"))
