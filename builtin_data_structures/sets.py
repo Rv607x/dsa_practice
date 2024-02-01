@@ -38,3 +38,13 @@ set_C = {2, 8, 4, 16}
 print(set_A & set_C)
 print(set_A.intersection(set_C))
 print(set_C.intersection(set_A))
+
+# Difference - the collection of all unique elements present in the first set but not in the second
+# difference between two sets can be found using either the - operator or the difference() method.
+# set_A - set_B returns the elements which are only present in set_A.
+# set_B - set_A would do the opposite.
+
+print(set_A - set_C)
+print(set_A.difference(set_C))
+print(set_C - set_A)
+print(set_C.difference(set_A))
