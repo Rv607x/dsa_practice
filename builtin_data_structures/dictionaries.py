@@ -45,3 +45,17 @@ print(phone_book3)
 cersei = phone_book3.pop("Cersei")
 print(phone_book3)
 print(cersei)
+
+# Length of dictionary 
+print(len(phone_book3))
+
+# Checking for existance of key in dictionary
+# use in keyword
+print("Batman" in phone_book3)
+
+# Copying dictionary components 
+# Use update() operation
+
+second_phone_book = {"Catwoman": 67423, "Jaime": 237734, "Godzilla": 37623}
+phone_book3.update(second_phone_book)
+print(phone_book3)
