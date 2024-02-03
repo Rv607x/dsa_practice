@@ -10,6 +10,9 @@ def find_smallest(arr):
 #print(find_smallest([5, 3, 6, 2, 10]))
 
 def selection_sort(arr):
+    """Implementation of selection sort algorithm that creates a new empty array
+    finds the smallest element in chosen array then pops it off and add to new array
+    till all arrays are popped off"""
     new_arr = []
     copied_arr = list(arr)
     for i in range(len(copied_arr)):
