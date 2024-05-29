@@ -13,3 +13,4 @@ def reverse_string(input_str: str):
 input_str = "!evitacudE ot emocleW"
 print(reverse_string(input_str))
 print(reverse_string(""))
+

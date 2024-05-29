@@ -19,4 +19,4 @@ def selection_sort(arr):
         smallest = find_smallest(copied_arr)
         new_arr.append(copied_arr.pop(smallest))
     return new_arr
-print(selection_sort([5, 3, 6, 2, 10, -6]))
+print(selection_sort([5, 3, 7890,  6, 2, 10, -6]))
