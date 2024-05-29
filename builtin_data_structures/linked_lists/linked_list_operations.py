@@ -17,5 +17,14 @@ class LinkedList:
     def get_head(self):
         return self.head_node
     
+    def is_empty(self):
+        if self.get_head is None:
+            return True
+        else:
+            return False
+
+
+
+
 lst = LinkedList()
-print(lst.get_head())
+print(lst.is_empty())
